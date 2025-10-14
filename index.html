@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade Colanges | Portfolio</title>
+    <!-- Link to our custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Load Lucide Icons for aesthetic vectors (kept as external utility) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Load Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body data-active-domain="dev">
+
+    <!-- MARK: Navigation 
+     -->
+    <header class="main-header">
+        <div class="header-content">
+            <a href="#" class="logo">Jade Colanges</a>
+
+            <!-- Sélecteur de langue -->
+             <nav class="language-selector" id="language-selector">
+                    <button class="lang-btn active" data-lang="en" title="Switch to English">🇬🇧</button>
+                    <button class="lang-btn" data-lang="fr" title="Voir en français">🇫🇷</button>
+                </nav>
+
+
+            <!-- Choix du domaine à afficher -->
+            <nav class="domain-selector" id="domain-selector">
+                <button class="domain-btn active" data-domain-id="dev" data-i18n="domain_dev">Developer</button>
+                <button class="domain-btn" data-domain-id="translator" data-i18n="domain_trad">Translator</button>
+                <button class="domain-btn" data-domain-id="writer" data-i18n="domain_write">Writer</button>
+            </nav>
+            
+            <!-- Boutons de navigation -->
+            <nav class="main-nav">
+                <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+                <a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a>
+                <a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+                <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+                
+            </nav>
+            <!-- Menu pour téléphone à compléter -->
+            <button class="mobile-menu-btn">
+                <i data-lucide="menu" class="icon-menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content-wrapper">
+
+        <!-- MARK: A propos
+          -->
+        <section id="about" class="about-section">
+            <div class="about-text-container">
+                
+                <div id="about-dynamic-content">
+                    <!-- MARK: Infos Dev
+                      -->
+                    <div class="domain-content domain-active" data-domain-id="dev">
+                        <h1 class="about-title">
+                            <span class="greeting" data-i18n="about_hi"><!-- Introduction --></span>
+                            <span class="name-gradient">Jade Colanges</span>
+                        </h1>
+                        <p class="about-subtitle" data-i18n="dev_about_subtitle">
+                            <!-- Sous-titre dev -->
+                        </p>
+                        <p class="about-description" data-i18n="dev_about_description">
+                            <!-- Description dev -->
+                        </p>
+                    </div>
+
+                    <!-- MARK: Infos Trad
+                      -->
+                    <div class="domain-content" data-domain-id="translator">
+                        <h1 class="about-title">
+                            <span class="greeting" data-i18n="about_hi"><!-- Introduction --></span>
+                            <span class="name-gradient">Jade Colanges</span>
+                        </h1>
+                        <p class="about-subtitle" data-i18n="trad_about_subtitle">
+                            <!-- Sous-titre traduction -->
+                        </p>
+                        <p class="about-description" data-i18n="trad_about_description">
+                            <!-- Description traduction -->
+                        </p>
+                    </div>
+
+                    <!-- MARK: Infos écriture
+                      -->
+                    <div class="domain-content" data-domain-id="writer">
+                        <h1 class="about-title">
+                            <span class="greeting" data-i18n="about_hi"><!-- Introduction --></span>
+                            <span class="name-gradient">Jade Lucy Colanges</span>
+                        </h1>
+                        <p class="about-subtitle" data-i18n="write_about_subtitle">
+                            <!-- Sous-titre autrice -->
+                        </p>
+                        <p class="about-description" data-i18n="write_about_description">
+                            <!-- Description autrice -->
+                        </p>
+                    </div>
+                </div>
+
+                <!-- MARK: Boutons contact
+                 -->
+                <div class="about-cta-group">
+                    <a href="#contact" class="cta-button primary-cta" data-i18n="cta_intouch">
+                        <!-- Bouton contact -->
+                        </a>
+                    <a href="your_cv_link.pdf" target="_blank" class="cta-button secondary-cta">       
+                        <span data-i18n="cta_cv"><!-- Bouton CV --></span>
+                        <i data-lucide="external-link" class="icon-sm"></i>
+                    </a>
+                    <!-- Réseaux sociaux -->
+                    <div class="social-icons">
+                        <a href="https://github.com/JadeJLC" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i data-lucide="github" class="icon-md"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jadejlc/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i data-lucide="linkedin" class="icon-md"></i>
+                        </a>
+                        <a href="https://instagram.com/jlc.jade" target="_blank" class="social-icon" aria-label="Instagram">
+                            <i data-lucide="instagram" class="icon-md"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MARK: Section compétences
+          -->
+        <section id="skills" class="section-padding section-divider">
+            <h2 class="section-title" id="skills-title" data-i18n="dev_skill_title"> 
+                <!-- Titre de l'onglet compétences -->
+            </h2>
+            <p class="section-intro" id="skills-intro" data-i18n="dev_skill_description">
+                <!-- Description de l'onglet compétences -->
+            </p>
+
+            <div class="skills-grid" id="skills-dynamic-content">
+                
+                <!--MARK:Skills dev
+                 Developer Skills -->
+                <div class="domain-content domain-active" data-domain-id="dev">
+                    <div class="skill-card"><i data-lucide="codesandbox" class="skill-icon"></i><span class="skill-name">Go</span></div>
+                    <div class="skill-card"><i data-lucide="code" class="skill-icon"></i><span class="skill-name">HTML</span></div>
+                    <div class="skill-card"><i data-lucide="brush" class="skill-icon"></i><span class="skill-name">CSS</span></div>
+                    <div class="skill-card"><i data-lucide="database" class="skill-icon"></i><span class="skill-name">SQL</span></div>
+                    <div class="skill-card"><i data-lucide="braces" class="skill-icon"></i><span class="skill-name">JavaScript</span></div>
+                    <div class="skill-card"><i data-lucide="book" class="skill-icon"></i><span class="skill-name">C</span></div>
+                </div>
+
+                <!-- MARK: Skills traduction
+                  Translator Skills -->
+                <div class="domain-content" data-domain-id="translator">
+                    <div class="skill-card"><i data-lucide="languages" class="skill-icon"></i><span class="skill-name" data-i18n="skill_loca"><!-- Localisation --></span></div>
+                    <div class="skill-card"><i data-lucide="file-check" class="skill-icon"></i><span class="skill-name">LQA & MTPE</span></div>
+                    <div class="skill-card"><i data-lucide="sigma" class="skill-icon"></i><span class="skill-name">MemoQ</span></div>
+                    <div class="skill-card"><i data-lucide="captions" class="skill-icon"></i><span class="skill-name">SubtitleEdit</span></div>
+                    <div class="skill-card"><i data-lucide="joystick" class="skill-icon"></i><span class="skill-name" data-i18n="skill_game"><!-- Game Knowledge --></span></div>
+                    <div class="skill-card"><i data-lucide="pen-tool" class="skill-icon"></i><span class="skill-name" data-i18n="skill_lingui"><!-- Linguistics --></span></div>
+                </div>
+
+                <!-- MARK: Skill écriture
+                 Writer Skills -->
+                <div class="domain-content" data-domain-id="writer">
+                    <div class="skill-card"><i data-lucide="sparkles" class="skill-icon"></i><span class="skill-name">World Building</span></div>
+                    <div class="skill-card"><i data-lucide="search" class="skill-icon"></i><span class="skill-name" data-i18n="skill_research"><!-- Research --></span></div>
+                    <div class="skill-card"><i data-lucide="pen-tool" class="skill-icon"></i><span class="skill-name" data-i18n="skill_write"><!-- Writing and linguistics --></span></div>
+                    <div class="skill-card"><i data-lucide="book-open-check" class="skill-icon"></i><span class="skill-name" data-i18n="skill_review"><!-- Review --></span></div>
+                    <div class="skill-card"><i data-lucide="quote" class="skill-icon"></i><span class="skill-name">Dialogues</span></div>
+                    <div class="skill-card"><i data-lucide="brush" class="skill-icon"></i><span class="skill-name">Illustrations</span></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- MARK: Sections projets 
+         -->
+        <section id="projects" class="section-padding section-divider">
+            <h2 class="section-title" id="projects-title"><!-- Titre projets --></h2>
+            <p class="section-intro project-intro-width" id="projects-intro">
+                <!-- Description onglet projects -->
+            </p>
+
+            <div class="projects-grid" id="projects-dynamic-content">
+
+                <!-- MARK: Projets dev 
+                  Development project -->
+                <div class="domain-content domain-active" data-domain-id="dev">
+
+                    <!-- Hamster Care -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"> 
+                                Hamster Care
+                            </h3>
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="GitHub Repository" data-i18n-title="link_github"><i data-lucide="github" class="icon-sm"></i></a> -->
+                                <!-- <a href="https://dea-kademeia.forumactif.com/" target="_blank" class="project-link" aria-label="WebSite Link" data-i18n-title="link_website"><i data-lucide="monitor" class="icon-sm"></i></a> -->
+                                 <a class="project-link" aria-label="WIP" data-i18n-title="link_wip"><i data-lucide="loader-circle" class="icon-sm"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_hamster_description">
+                            <!-- Description du projet -->
+                        </p>
+                        <div class="project-tags">
+                            <!-- Compétences utilisées -->
+                            <span class="tag">Web design</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Pixel Art</span>
+                        </div>
+                    </article>
+                    <!-- Indarë -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"> 
+                                 Indarë
+                            </h3>
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="GitHub Repository" data-i18n-title="link_github"><i data-lucide="github" class="icon-sm"></i></a> -->
+                                <a href="https://indare.forumactif.com/" target="_blank" class="project-link" aria-label="Website Link" data-i18n-title="link_website"><i data-lucide="monitor" class="icon-sm"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_inda_description">
+                            <!-- Description du projet -->
+                        </p>
+                        <div class="project-tags">
+                            <!-- Compétences utilisées -->
+                            <span class="tag">Web design</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </article>
+                    <!-- TimeTable -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"> 
+                                TimeTable
+                            </h3>
+                            <div class="project-links">
+                                <a href="https://github.com/JadeJLC/Timetable" target="_blank" class="project-link" aria-label="GitHub Repository" data-i18n-title="link_github"><i data-lucide="github" class="icon-sm"></i></a>
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="Website Link" data-i18n-title="link_website" title="Accéder au site"><i data-lucide="monitor" class="icon-sm"></i></a> -->
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_timetable_description">
+                            <!-- Description du projet -->
+                        </p>
+                        <div class="project-tags">
+                            <!-- Compétences utilisées -->
+                            <span class="tag">Web design</span>
+                            <span class="tag" data-i18n="tag_server"><!-- Server conception --></span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">GO</span>
+                        </div>
+                    </article>
+                    <!-- Dea Kademeia -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"> 
+                                 Dea Kademeia
+                            </h3>
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="GitHub Repository" data-i18n-title="link_github"><i data-lucide="github" class="icon-sm"></i></a> -->
+                                <a href="https://dea-kademeia.forumactif.com/" target="_blank" class="project-link" aria-label="Website Link" data-i18n-title="link_website" title="Accéder au site"><i data-lucide="monitor" class="icon-sm"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_dea_description">
+                            <!-- Description du projet -->
+                        </p>
+                        <div class="project-tags">
+                            <!-- Compétences utilisées -->
+                            <span class="tag">Web design</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </article>
+                    <!-- We Are Miraculous -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"> 
+                                We Are Miraculous
+                            </h3>
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="GitHub Repository" data-i18n-title="link_github"><i data-lucide="github" class="icon-sm"></i></a> -->
+                                <a href="https://we-are-miraculous.forumactif.com/" target="_blank" class="project-link" aria-label="Website Link" data-i18n-title="link_website" title="Accéder au site"><i data-lucide="monitor" class="icon-sm"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_wam_description">
+                            <!-- Description du projet -->
+                        </p>
+                        <div class="project-tags">
+                            <!-- Compétences utilisées -->
+                            <span class="tag">Web design</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </article>
+                   
+                   
+                    
+                </div>
+
+                <!-- MARK: Projets traduction 
+                Translation Projects -->
+                <div class="domain-content" data-domain-id="translator">
+                     <!-- ROD -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"><!-- Nom du projet -->
+                                 ROD
+                                </h3>
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/in/oresama-09a841a5/" target="_blank" class="project-link" aria-label="Project Lead" data-i18n-title="link_manager|Nicolas Matthew"><i data-lucide="user-star" class="icon-sm"></i></a>
+                                <a class="project-link" data-i18n-title="link_nda"><i data-lucide="venetian-mask" class="icon-sm"></i></a>
+                                <a class="project-link" aria-label="WIP" data-i18n-title="link_wip"><i data-lucide="loader-circle" class="icon-sm"></i></a>
+                                <!-- ou -->
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="Client Link" title="Client : Ubisoft"><i data-lucide="handshake" class="icon-sm"></i></a> -->
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_rod_description">
+                              <!-- Description du projet -->*
+                        </p>
+                        <div class="project-tags">
+                            <!-- Détails -->
+                            <span class="tag">English-to-French</span>
+                            <span class="tag">Keywords Studios</span>
+                            <span class="tag">MemoQ</span>
+                            <span class="tag" data-i18n="tag_expert"></span>
+                            <span class="tag" data-i18n="tag_crea"></span>
+                            <span class="tag" data-i18n="tag_team"></span>
+                        </div>
+                    </article>
+                    <!-- Avatar -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"><!-- Nom du projet -->
+                                 Avatar: Frontiers of Pandora
+                                </h3>
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="Project Lead" data-i18n-title="link_manager"><i data-lucide="user-star" class="icon-sm"></i></a> -->
+                                <!-- <a class="project-link" title="Client : NDA protected"><i data-lucide="venetian-mask" class="icon-sm"></i></a> -->
+                                <!-- ou -->
+                                <a href="https://www.ubisoft.com/fr-fr/game/avatar/frontiers-of-pandora" target="_blank" class="project-link" aria-label="Client Link" title="Client : Ubisoft"><i data-lucide="handshake" class="icon-sm"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_afop_description">
+                              <!-- Description du projet -->
+                        </p>
+                        <div class="project-tags">
+                            <!-- Détails -->
+                            <span class="tag">English-to-French</span>
+                            <span class="tag">Keywords Studios</span>
+                            <span class="tag">MemoQ</span>
+                            <span class="tag" data-i18n="tag_crea"></span>
+                            <span class="tag" data-i18n="tag_team"></span></div>
+                    </article>
+                     <!-- JRPG -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"><!-- Nom du projet -->
+                                 J-RPG
+                                </h3>
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/in/florie-ab%C3%A9lard-9147b6b4/" target="_blank" class="project-link" aria-label="Project Lead" data-i18n-title="link_manager|Florie Abélard"><i data-lucide="user-star" class="icon-sm"></i></a>
+                                <a class="project-link" data-i18n-title="link_nda"><i data-lucide="venetian-mask" class="icon-sm"></i></a>
+                                <!-- ou -->
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="Client Link" title="Client : Ubisoft"><i data-lucide="handshake" class="icon-sm"></i></a> -->
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_jrpg_description">
+                              <!-- Description du projet -->*
+                        </p>
+                        <div class="project-tags">
+                            <!-- Détails -->
+                            <span class="tag">English-to-French</span>
+                            <span class="tag">Keywords Studios</span>
+                            <span class="tag">MemoQ</span>
+                            <span class="tag" data-i18n="tag_search"></span>
+                            <span class="tag" data-i18n="tag_crea"></span></div>
+                    </article>
+                     <!-- Bamblup -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"><!-- Nom du projet -->
+                                Bamblup: Motion To Win
+                                </h3>
+                            <div class="project-links">
+                                <a href="https://www.linkedin.com/in/leslie-alfredsson/" target="_blank" class="project-link" aria-label="Project Lead" data-i18n-title="link_manager|Leslie Alfredson"><i data-lucide="user-star" class="icon-sm"></i></a>
+                                <!-- <a class="project-link" data-i18n-title="link_nda"><i data-lucide="venetian-mask" class="icon-sm"></i></a> -->
+                                <!-- ou -->
+                                <!-- <a href="#" target="_blank" class="project-link" aria-label="Client Link" title="Client : Ubisoft"><i data-lucide="handshake" class="icon-sm"></i></a> -->
+                            </div>
+                        </div>
+                        <p class="project-description" data-i18n="project_bamb_description">
+                              <!-- Description du projet -->*
+                        </p>
+                        <div class="project-tags">
+                            <!-- Détails -->
+                            <span class="tag">English-to-French</span>
+                            <span class="tag">FirstAndTen</span>
+                            <span class="tag" data-i18n="tag_crea"></span>
+                            <span class="tag" data-i18n="tag_team"></span></div>
+                    </article>
+                   
+                </div>
+
+                <!-- MARK: Projets écriture
+                   Writing Projects -->
+                <div class="domain-content" data-domain-id="writer">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title"><!-- Nom du projet -->
+                                 Title
+                            </h3>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="project-link" aria-label="Buy Link" title="Acheter"><i data-lucide="shopping-cart" class="icon-sm"></i></a>
+                                <a href="#" target="_blank" class="project-link" aria-label="Booknode Link" title="Laisser un avis"><i data-lucide="library" class="icon-sm"></i></a>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                              <!-- Description du projet -->
+                           Short description
+                        </p>
+                        <div class="project-tags">
+                            <!-- Détails -->                            
+                            <span class="tag">Fantasy</span>
+                            <span class="tag">... pages</span>
+                            <span class="tag">Worldbuilding</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- MARK: Email
+          -->
+        <section id="contact" class="section-padding section-divider contact-section">
+            <h2 class="section-title">
+                <!-- Titre contact -->
+            </h2>
+            <p class="contact-intro">
+                <!-- Intro contact -->
+            </p>
+            <a href="mailto:your.email@example.com" class="cta-button primary-cta final-cta">
+                <!-- Bouton email -->
+                 <span data-i18n="cta_email"></span>
+                <i data-lucide="mail" class="icon-md icon-mail"></i>
+            </a>
+        </section>
+
+    </main>
+
+    <!-- MARK: Footer 
+     -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="copyright">&copy; 2025 Jade Colanges. All rights reserved.</p>
+            <div class="footer-social-links">
+                 <a href="https://instagram.com/jlc.jade" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i data-lucide="instagram" class="icon-md"></i>
+                </a>
+                <a href="https://www.pinterest.com/jadelucycolanges" target="_blank" class="footer-social-icon" aria-label="Pinterest">
+                    <i data-lucide="brush" class="icon-sm"></i>
+                </a>
+                <a href="mailto:jade.colanges@live.fr" class="footer-social-icon" aria-label="Email">
+                    <i data-lucide="at-sign" class="icon-sm"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
