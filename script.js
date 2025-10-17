@@ -225,6 +225,7 @@ let currentDomain = urlDomain || getPreference(DOMAIN_STORAGE_KEY, 'dev');
             const domainSelector = document.getElementById('domain-selector');
             const domainButtons = domainSelector.querySelectorAll('.domain-btn');
             const domainContentWrappers = document.querySelectorAll('.domain-content');
+            const cvButton = document.getElementById('bouton-cv');
             const langSelector = document.getElementById('language-selector');
             const langButtons = langSelector.querySelectorAll('.lang-btn');
 
@@ -326,6 +327,15 @@ document.querySelectorAll('[data-i18n-title]').forEach(element => {
                 document.getElementById('skills-intro').textContent = langDict[`skills_intro_${domainId}`];
                 document.getElementById('projects-title').textContent = langDict[`projects_title_${domainId}`];
                 document.getElementById('projects-intro').textContent = langDict[`projects_intro_${domainId}`];
+
+                if (cvButton) {
+                    if (domainId === 'writer') {
+                        cvButton.style.display = 'none';
+                    } else {
+                        // Revert to default display (empty string clears the inline style)
+                        cvButton.style.display = ''; 
+                    }
+                }
             }
 
 
