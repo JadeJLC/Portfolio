@@ -243,7 +243,7 @@ a {
 .about-title {
     font-size: 3rem; /* text-5xl */
     font-weight: 800;
-    line-height: 1.05;
+    line-height: 1.20;
     letter-spacing: -0.05em; /* tracking-tighter */
 }
 
@@ -622,4 +622,53 @@ a {
     background: none;
     font-size: 1.2em;
     cursor:pointer;
+}
+
+.book-hover {
+    position: relative;
+    cursor: context-menu;
+}
+
+.book-hover ul {
+    display:none;
+    width: 45vw;
+    text-align: center;
+}
+
+.book-hover:hover ul {
+    display: block;
+    position: absolute;
+    right:-5px;
+    bottom:75px;
+    color:var(--text-muted);
+    padding:5px;
+}
+
+@media (orientation: portrait) {
+    .book-hover ul {
+    width: 45vw;
+    }
+    
+    .book-hover:hover ul {
+        left:initial;
+    }
+
+}
+
+@media (min-width: 640px) { /* sm */
+    .book-hover ul {
+        width: 30vw;
+    }
+}
+@media (min-width: 1024px) { /* lg */
+    .book-hover ul {
+        width: 15vw;
+    }
+}
+
+
+.book-hover ul li {
+    display: inline-block;
+    margin-top: 10px;
+
 }
