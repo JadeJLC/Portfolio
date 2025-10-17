@@ -40,7 +40,7 @@ function getUrlParameter(name) {
                 nav_projects: "Projects",
                 nav_contact: "Contact",
 
-                domain_dev: "Developper",
+                domain_dev: "Developer",
                 domain_trad: "Translator",
                 domain_write: "Writer",
 
@@ -60,7 +60,7 @@ function getUrlParameter(name) {
 
                 // ------ About 
                 dev_about_subtitle: "I build accessible, engaging and effective websites and apps as a <span class='accent-text-bold'>Full-Stack Developer.</span>",
-                dev_about_description: "Specialized in Go, HTML, CSS and Javascript and always eager to discover and learn new technologies, I can make ideas come to life thorugh functionnal and user-friendly projects.",
+                dev_about_description: "Specialized in Go, HTML, CSS and Javascript and always eager to discover and learn new technologies, I can make ideas come to life through functional and user-friendly projects.",
                 trad_about_subtitle: "I make your stories, worlds and interfaces accessible to new audiences as a <span class='accent-text-bold'>Localization specialist.</span>",
                 trad_about_description: "Specialized in video games and literary fiction, I make your characters shine just as bright in French as they do in original English, with tone, context and even puns.",
                 write_about_subtitle: "I build worlds, characters and stories for you to immerse yourself into as a <span class='accent-text-bold'>Fantasy writer.</span>",
@@ -70,7 +70,7 @@ function getUrlParameter(name) {
                 skills_title_dev: "Tech Skills",
                 skills_intro_dev: "A selection of the tools and technologies I use to build scalable, high-performance websites and applications.",
                 skills_title_translator: "Localization Expertise & Tools",
-                skills_intro_translator: "Specialized softwares and linguistic skills that allow me to localize complex interactive experiences.",
+                skills_intro_translator: "Specialized software and linguistic skills that allow me to localize complex interactive experiences.",
                 skills_title_writer: "Creative Skills",
                 skills_intro_writer: "All the skills and tools that I use to offer immersive and lively experiences.",
 
@@ -92,25 +92,25 @@ function getUrlParameter(name) {
 
                 // ------ Description des projets
                 // Dev
-                project_inda_description: "RolePlaying forum designed on the <em>Forumactif</em> platform, with an <b>Invision</b> framework. <br> The main forum structure is part of the platform, I personnalized it with HTML, CSS and a few scripts to give it a more personnal and lively feel for my players.",
-                project_dea_description: "RolePlaying forum designed on the <em>Forumactif</em> platform, with a <b>phpBB3</b> framework. <br> The main forum structure is part of the platform, I personnalized it with HTML, CSS and a few scripts based on my graphist's spring-themed design.",
-                project_wam_description: "RolePlaying forum designed on the <em>Forumactif</em> platform, with a <b>phpBB2</b> framework. <br> The main forum structure is part of the platform, I personnalized it with HTML, CSS and a few scripts to give it an old movie vibe, sepia tones and a responsive interface.",
+                project_inda_description: "Role-Playing forum designed on the <em>Forumactif</em> platform, with an <b>Invision</b> framework. <br> The main forum structure is part of the platform, I personalized it with HTML, CSS and a few scripts to give it a more personal and lively feel for my players.",
+                project_dea_description: "Role-Playing forum designed on the <em>Forumactif</em> platform, with a <b>phpBB3</b> framework. <br> The main forum structure is part of the platform, I personalized it with HTML, CSS and a few scripts based on my graphisc designer's spring-themed design.",
+                project_wam_description: "Role-Playing forum designed on the <em>Forumactif</em> platform, with a <b>phpBB2</b> framework. <br> The main forum structure is part of the platform, I personalized it with HTML, CSS and a few scripts to give it an old movie vibe, sepia tones and a responsive interface.",
                 project_timetable_description: "Small Go server opening a localhost website to generate a timetable. Enter your workable hours, the total number of hours you have to work, and the program will distribute them evenly between your work days.",
                 project_hamster_description: "A javascript web app inspired by Tamagotchis and pet care games. Take care of a pixel-art hamster and keep it alive as long as possible.<br> Needs include food, water, sleep, physical activity, cleanliness and fun, and impact eachother.",
                 
                 // Traduction
                 project_afop_description: "Translation and localization of 60k words of scripts, dialogue and menus for the open-world RPG Avatar: Frontiers of Pandora (Ubisoft). I was part of a six-person localization and review team. <br> We also translated game lore and found original French names for new plants and creatures.",
-                project_jrpg_description: "Full translation and localization of a J-RPG, roughly 300k words of dialogue, quest description, creative names (skills, creatures, places) and interface. The game was a sequel to several others, meaning consistency was a very important part of my job on the project.",
-                project_bamb_description: "As part as an internship in Sweden, I worked with FirstAndTen on their game Bamblup: Motion To Win. My role involved writing the lore, dialogues and interface in English then translating them into French. I was also part of the brainstorming on new ideas for game element.",
+                project_jrpg_description: "Full translation and localization of a J-RPG, roughly 300k words of dialogue, quest descriptions, creative names (skills, creatures, places) and interface. The game was a sequel to several others, meaning consistency was a very important part of my job on the project.",
+                project_bamb_description: "As part of an internship in Sweden, I worked with FirstAndTen on their game Bamblup: Motion To Win. My role involved writing the lore, dialogues and interface in English then translating them into French. I was also part of the brainstorming on new ideas for game element.",
                 project_rod_description: "Current translation project on a J-RPG. Being very familiar with the game series, I shared a lot of my information for the Term Base and translation memory to facilitate advancement in the project. Currently, our team has translated and reviewed roughly 200k words.",
-                project_mchef_description: "MTPE subtitles for 4 episodes of MasterChef on Amazon Prime. Most of the job included correcting mistranlations and missing context, as well as making the French version more idiomatic.",
-                project_lnest_description: "MTPE subtitle for the film LoveNest on Disney+. The job involved correcting character names, translating song lyrics and avoiding multiple repetitions of common words, as well as making the French version more fluid.",
-                project_dbtk_description: "MTPE subtitle for the film Don't bother to Knock on Disney+. Most of the job involved fixing mistakes in places and character names, ensuring a fluid and consistent French version and avoiding weird-souding associations of words and sentences.",
-                project_blizz_description: "Subtitles of a promotional video interview for an HearthStone extention. Other jobs for the same client and same project manager included several out of game elements, like update overview and announcements.",
+                project_mchef_description: "MTPE subtitles for 4 episodes of MasterChef on Amazon Prime. Most of the job included correcting mistranslations and missing context, as well as making the French version more idiomatic.",
+                project_lnest_description: "MTPE subtitles for the film LoveNest on Disney+. The job involved correcting character names, translating song lyrics and avoiding multiple repetitions of common words, as well as making the French version more fluid.",
+                project_dbtk_description: "MTPE subtitles for the film Don't bother to Knock on Disney+. Most of the job involved fixing mistakes in places and character names, ensuring a fluid and consistent French version and avoiding weird-sounding associations of words and sentences.",
+                project_blizz_description: "Subtitles of a promotional video interview for an HearthStone extension. Other jobs for the same client and same project manager included several out-of-game elements, like update overview and announcements.",
 
                 // Ecriture
-                project_ljdt_description: "Les Joyaux des Titans is currently not available in English. Interested in translation rights ? Send me and email ! <center><a href='mailto:jade.colanges@live.fr' class='footer-social-icon' aria-label='Email'>... @ ...</a></center><style>#LJDT-book {display:none}</style>",
-                project_ledt_description: "L'Éveil des Titans is currently not available in English. Interested in translation rights ? Send me and email ! <center><a href='mailto:jade.colanges@live.fr' class='footer-social-icon' aria-label='Email'>... @ ...</a></center><style>#LEDT-book {display:none}</style>",
+                project_ljdt_description: "Les Joyaux des Titans is currently not available in English. Interested in translation rights? Send me and email! <center><a href='mailto:jade.colanges@live.fr' class='footer-social-icon' aria-label='Email'>... @ ...</a></center><style>#LJDT-book {display:none}</style>",
+                project_ledt_description: "L'Éveil des Titans is currently not available in English. Interested in translation rights? Send me and email! <center><a href='mailto:jade.colanges@live.fr' class='footer-social-icon' aria-label='Email'>... @ ...</a></center><style>#LEDT-book {display:none}</style>",
 
 
                 // ------ Tags
@@ -181,20 +181,20 @@ function getUrlParameter(name) {
                  // ------ Description des projets
                 //  Dev
                 project_inda_description: "Forum de jeu de rôle conçu sur la plateforme <em>Forumactif</em>, version <b>Invision</b>. <br> La structure principale du forum est fournie par la plateforme, je l'ai personnalisée avec du HTML, du CSS et quelques scripts afin de lui donner une ambiance personnalisée et plus vivante pour mes joueurs.",
-                project_dea_description: "Forum de jeu de rôle conçu sur la plateforme <em>Forumactif</em>, version <b>phpBB3</b>. <br> La structure principale du forum est fournie par la plateforme, je l'ai personnalisée avec du HTML, du CSS et quelques scripts selon les maquettes de mon graphiste pour un thème printannier.",
+                project_dea_description: "Forum de jeu de rôle conçu sur la plateforme <em>Forumactif</em>, version <b>phpBB3</b>. <br> La structure principale du forum est fournie par la plateforme, je l'ai personnalisée avec du HTML, du CSS et quelques scripts selon les maquettes de mon graphiste pour un thème printanier.",
                 project_wam_description: "Forum de jeu de rôle conçu sur la plateforme <em>Forumactif</em>, version <b>phpBB2</b>. <br> La structure principale du forum est fournie par la plateforme, je l'ai personnalisée avec du HTML, du CSS et quelques scripts pour lui donner une ambiance de vieux film, des tons sepia et une interface responsive.",
                 project_timetable_description: "Petit serveur Go qui ouvre un site web local pour générer un emploi du temps. Entrez vos horaires de disponibilité, le nombre total d'heures à effectuer dans la semaine, et le programme les placera équitablement entre vos jours de travail.",
                 project_hamster_description: "Une appli web en javascript inspirée des Tamagotchis et des jeux de soin d'animaux. Occupez-vous d'un hamster en pixel art et gardez-le en vie aussi longtemps que possible.<br> Ses besoins comprennent la nourriture, l'eau, le sommeil, l'activité physique, la propreté et l'amusement, et s'impactent les uns les autres.",
                 
                 // Traduction
-                project_afop_description: "Traduction et localisation de 60k mots de doublages, dialogues et menus du RPG en monde ouvert Avatar&nbsp;: Frontiers of Pandora (Ubisoft). Je faisait partie d'une équipe de six traducteurs et relecteurs. <br> Nous avons également traduit le lore du jeu et les noms des plantes et créatures inventés.",
+                project_afop_description: "Traduction et localisation de 60k mots de doublages, dialogues et menus du RPG en monde ouvert Avatar&nbsp;: Frontiers of Pandora (Ubisoft). Je faisais partie d'une équipe de six traducteurs et relecteurs. <br> Nous avons également traduit le lore du jeu et les noms des plantes et créatures inventés.",
                 project_jrpg_description: "Traduction et localisation complète d'un J-RPG&nbsp;: environ 300k mots de dialogues, descriptions de quêtes, noms inventés (compétences, créatures, lieux) et interfaces. Le jeu étant la suite de plusieurs autres, le maintien de la cohérence était une partie importante de mon travail sur ce projet.",
-                project_bamb_description: "Lors d'un stage en Suède, j'ai travaillé chez FirstAndTen sur leur jeu Bamblup: Motion To Win. Mon rôle consistait à écrire le lore, les dialogues et les texte de l'interface en anglais avant des les traduire. Je participais aussi aux sessions brainstoming pour trouver de nouvelles idées de gameplay.",
-                project_rod_description: "Projet de traduction d'un J-RPG en cours. Connaissant bien la série du jeu, j'ai partagé la plupart de mes connaissances pour remplir le lexique et la mémoire de traduction et ainsi facilité l'avancement du projet. L'équipe du projet a actuellement traduit et relu environ 200k mots.",
-                project_mchef_description: "Sous-titrage en MTPE de 4 episodes de MasterChef pour Amazon Prime (161 minutes). Le travail consistait majoritairement à corriger des erreurs de traduction et de contextualisation, ainsi qu'à rendre la version française plus idiomatique.",
+                project_bamb_description: "Lors d'un stage en Suède, j'ai travaillé chez FirstAndTen sur leur jeu Bamblup: Motion To Win. Mon rôle consistait à écrire le lore, les dialogues et les texte de l'interface en anglais avant des les traduire. Je participais aussi aux sessions brainstorming pour trouver de nouvelles idées de gameplay.",
+                project_rod_description: "Projet de traduction d'un J-RPG en cours. Connaissant bien la série du jeu, j'ai partagé la plupart de mes connaissances pour remplir le lexique et la mémoire de traduction et ainsi faciliter l'avancement du projet. L'équipe du projet a actuellement traduit et relu environ 200k mots.",
+                project_mchef_description: "Sous-titrage en MTPE de 4 épisodes de MasterChef pour Amazon Prime (161 minutes). Le travail consistait majoritairement à corriger des erreurs de traduction et de contextualisation, ainsi qu'à rendre la version française plus idiomatique.",
                 project_lnest_description: "Sous-titrage en MTPE du film LoveNest pour Disney+ (85 minutes). La correction en MTPE impliquait de corriger des noms de personnages, de traduire correctement des paroles de chanson et d'éviter les répétitions multiples sur certains termes, en plus de rendre le français plus naturel.",
                 project_dbtk_description: "Sous-titrage en MTPE du film Don't bother to Knock pour Disney+ (72 minutes). Le travail consistait majoritairement à corriger des erreurs dans des noms de lieux et de personnages, d'assurer une version française cohérente et fluide et d'éviter des tournures de phrases étranges.",
-                project_blizz_description: "Sous-titrage d'une interview vidéo promotionnelle pour une extension de HearthStone. Pour le même clien et avec le même chef de projet, j'ai également travaillé sur d'autres projet \"Out of Game\", comme des notes de mise à jour et des annonces.",
+                project_blizz_description: "Sous-titrage d'une interview vidéo promotionnelle pour une extension de HearthStone. Pour le même client et avec le même chef de projet, j'ai également travaillé sur d'autres projets \"Out of Game\", comme des notes de mise à jour et des annonces.",
                 
                 // Ecriture
                 project_ljdt_description: "<b>Les Secrets de May'zur - T1</b><br><br> Dix ans d'entraînement, d'observation, de préparation. Durant toutes ces années, Karel a convoité les joyaux des Titans, des gemmes précieuses conservées au palais royal censées lui fournir l'argent nécessaire pour sortir de la rue. Il lui suffit de les vendre et il pourra enfin changer de vie. C'était le projet de toute son existence.<br><br>Mais les souhaits ne se réalisent pas toujours comme prévu.",
@@ -202,7 +202,7 @@ function getUrlParameter(name) {
 
                 // ------ Tags
                 tag_server : "Conception de serveur",
-                tag_crea : "Creativité",
+                tag_crea : "Créativité",
                 tag_search : "Recherche",
                 tag_team : "Travail d'équipe",
                 tag_expert : "Expertise jeux",
