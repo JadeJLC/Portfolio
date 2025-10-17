@@ -136,18 +136,18 @@ function getUrlParameter(name) {
                 // ------ About 
                 dev_about_subtitle: "Je crée des applications et des sites webs accessibles, engageants et performants en tant que <span class='accent-text-bold'>Développeuse Full-Stack.</span>",
                 dev_about_description: "Spécialisée en Go, HTML, CSS et Javascript, et toujours prête à découvrir de nouvelles technologies, je peux donner vie à vos idées dans des projets fonctionnels et ergonomiques.",
-                trad_about_subtitle: "Je rends vos histoires, vos mondes et vos interfaces accessibles à une nouvelle audience en tant que <span class='accent-text-bold'>Spécialiste de la Localisation.</span>",
-                trad_about_description: "Spécialisée dans les jeux vidéo et dans la littérature de fiction, je permets à vos personnages de briller autant en français que dans leur anglais originel,que ce soit dans le ton, le contexte et même les jeux de mots.",
+                trad_about_subtitle: "Je rends vos histoires, vos mondes et vos interfaces accessibles à une nouvelle audience en tant que <span class='accent-text-bold'>Traductrice.</span>",
+                trad_about_description: "Spécialisée dans les jeux vidéo et dans la littérature de fiction, je permets à vos personnages de briller autant en français que dans leur anglais originel, que ce soit dans le ton, le contexte et même les jeux de mots.",
                 write_about_subtitle: "Je crée des mondes, des personnages et des histoires pour vous transporter en tant qu'<span class='accent-text-bold'>Autrice de fantasy.</span>",
                 write_about_description: "Laissez-moi vous emmener dans un nouveau monde, construit avec soin et empli d'émotions et de personnages que vous allez aimer, détester, ou adorer détester.",
 
                 // ------ Compétences et descriptions
                 skills_title_dev: "Compétences tech",
                 skills_intro_dev: "Les outils et les technologies que j'utilise pour construire des applications et des sites webs performants et adaptables.",
-                skills_title_translator: "Outils et compétences de traductions",
+                skills_title_translator: "Outils et compétences de traduction",
                 skills_intro_translator: "Les programmes et les compétences que j'utilise dans la traduction d'univers narratifs complexes.",
                 skills_title_writer: "Compétences créatives",
-                skills_intro_writer: "Les compétences et les outils que j'utilise pour offrir des expériences immersives et pleines de vie.",
+                skills_intro_writer: "Les compétences que j'utilise pour offrir des expériences immersives et pleines de vie.",
 
                 // ------- Noms des compétences
                 skill_loca: "Traduction",
