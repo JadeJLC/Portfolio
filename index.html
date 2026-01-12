@@ -73,7 +73,7 @@
             data-i18n="nav_contact"
           ></a>
         </nav>
-        <!-- Menu pour téléphone à compléter -->
+        <!-- Menu pour téléphone -->
         <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
           <i data-lucide="menu" class="icon-menu"></i>
         </button>
@@ -101,18 +101,17 @@
     <!-- #endregion -->
 
     <main class="main-content-wrapper">
-      <!-- MARK: A propos
+      <!-- #region ***** A propos
           -->
       <section id="about" class="about-section">
         <div class="about-text-container">
           <div id="about-dynamic-content">
-            <!-- MARK: Infos Dev
-                      -->
+            <!-- #region ***** Infos Dev -->
             <div class="domain-content domain-active" data-domain-id="dev">
               <h1 class="about-title">
                 <span class="greeting" data-i18n="about_hi"
-                  ><!-- Introduction --></span
-                >
+                  ><!-- Introduction -->
+                </span>
                 <span class="name-gradient">Jade Colanges</span>
               </h1>
               <p class="about-subtitle" data-i18n="dev_about_subtitle">
@@ -122,14 +121,14 @@
                 <!-- Description dev -->
               </p>
             </div>
+            <!-- #endregion -->
 
-            <!-- MARK: Infos Trad
-                      -->
+            <!-- #region ***** Infos Trad -->
             <div class="domain-content" data-domain-id="translator">
               <h1 class="about-title">
                 <span class="greeting" data-i18n="about_hi"
-                  ><!-- Introduction --></span
-                >
+                  ><!-- Introduction -->
+                </span>
                 <span class="name-gradient">Jade Colanges</span>
               </h1>
               <p class="about-subtitle" data-i18n="trad_about_subtitle">
@@ -139,14 +138,14 @@
                 <!-- Description traduction -->
               </p>
             </div>
+            <!-- #endregion -->
 
-            <!-- MARK: Infos écriture
-                      -->
+            <!-- #region ***** Infos écriture -->
             <div class="domain-content" data-domain-id="writer">
               <h1 class="about-title">
-                <span class="greeting" data-i18n="about_hi"
-                  ><!-- Introduction --></span
-                >
+                <span class="greeting" data-i18n="about_hi">
+                  <!-- Introduction -->
+                </span>
                 <span class="name-gradient">Jade Lucy Colanges</span>
               </h1>
               <p class="about-subtitle" data-i18n="write_about_subtitle">
@@ -156,18 +155,19 @@
                 <!-- Description autrice -->
               </p>
             </div>
+            <!-- #endregion -->
           </div>
 
-          <!-- MARK: Boutons contact
-                 -->
+          <!-- #region Boutons contact -->
           <div class="about-cta-group">
+            <!-- Mail -->
             <a
               href="mailto:jade.colanges@live.fr"
               class="cta-button primary-cta"
               data-i18n="cta_intouch"
             >
-              <!-- Bouton contact -->
             </a>
+            <!-- #region CV dev FR-->
             <a
               href="Jade-Colanges-dev-2026.pdf"
               target="_blank"
@@ -178,6 +178,8 @@
               <span data-i18n="cta_cv"> </span>
               <i data-lucide="external-link" class="icon-projects"></i>
             </a>
+            <!-- #endregion -->
+            <!-- #region CV trad FR -->
             <a
               href="Jade-Colanges-trad-2026.pdf"
               target="_blank"
@@ -188,7 +190,9 @@
               <span data-i18n="cta_cv"> </span>
               <i data-lucide="external-link" class="icon-projects"></i>
             </a>
-            <!-- Réseaux sociaux -->
+            <!-- #endregion -->
+
+            <!-- #region ***** Réseaux sociaux -->
             <div class="social-icons">
               <a
                 href="https://github.com/JadeJLC"
@@ -215,12 +219,13 @@
                 <i data-lucide="instagram" class="icon-md"></i>
               </a>
             </div>
+            <!-- #endregion -->
           </div>
         </div>
       </section>
+      <!-- #endregion -->
 
-      <!-- MARK: Section compétences
-          -->
+      <!-- #region ***** Compétences -->
       <section id="skills" class="section-padding section-divider">
         <h2 class="section-title" id="skills-title" data-i18n="dev_skill_title">
           <!-- Titre de l'onglet compétences -->
@@ -234,8 +239,7 @@
         </p>
 
         <div class="skills-grid" id="skills-dynamic-content">
-          <!--MARK:Skills dev
-                 Developer Skills -->
+          <!-- #region ***** Skills dev -->
           <div class="domain-content domain-active" data-domain-id="dev">
             <div class="skill-card">
               <i data-lucide="codesandbox" class="skill-icon"></i
@@ -262,15 +266,15 @@
               ><span class="skill-name">C</span>
             </div>
           </div>
+          <!-- #endregion -->
 
-          <!-- MARK: Skills traduction
-                  Translator Skills -->
+          <!-- #region Skills traduction -->
           <div class="domain-content" data-domain-id="translator">
             <div class="skill-card">
               <i data-lucide="languages" class="skill-icon"></i
-              ><span class="skill-name" data-i18n="skill_loca"
-                ><!-- Localisation --></span
-              >
+              ><span class="skill-name" data-i18n="skill_loca">
+                <!-- Localisation -->
+              </span>
             </div>
             <div class="skill-card">
               <i data-lucide="file-check" class="skill-icon"></i
@@ -286,20 +290,20 @@
             </div>
             <div class="skill-card">
               <i data-lucide="joystick" class="skill-icon"></i
-              ><span class="skill-name" data-i18n="skill_game"
-                ><!-- Game Knowledge --></span
-              >
+              ><span class="skill-name" data-i18n="skill_game">
+                <!-- Game Knowledge -->
+              </span>
             </div>
             <div class="skill-card">
               <i data-lucide="book-key" class="skill-icon"></i
-              ><span class="skill-name" data-i18n="skill_lingui"
-                ><!-- Linguistics --></span
-              >
+              ><span class="skill-name" data-i18n="skill_lingui">
+                <!-- Linguistics -->
+              </span>
             </div>
           </div>
+          <!-- #endregion -->
 
-          <!-- MARK: Skill écriture
-                 Writer Skills -->
+          <!-- #region ***** Skills écriture -->
           <div class="domain-content" data-domain-id="writer">
             <div class="skill-card">
               <i data-lucide="sparkles" class="skill-icon"></i
@@ -307,21 +311,21 @@
             </div>
             <div class="skill-card">
               <i data-lucide="search" class="skill-icon"></i
-              ><span class="skill-name" data-i18n="skill_research"
-                ><!-- Research --></span
-              >
+              ><span class="skill-name" data-i18n="skill_research">
+                <!-- Research -->
+              </span>
             </div>
             <div class="skill-card">
               <i data-lucide="pen-tool" class="skill-icon"></i
-              ><span class="skill-name" data-i18n="skill_write"
-                ><!-- Writing and linguistics --></span
-              >
+              ><span class="skill-name" data-i18n="skill_write">
+                <!-- Writing and linguistics -->
+              </span>
             </div>
             <div class="skill-card">
               <i data-lucide="book-open-check" class="skill-icon"></i
-              ><span class="skill-name" data-i18n="skill_review"
-                ><!-- Review --></span
-              >
+              ><span class="skill-name" data-i18n="skill_review">
+                <!-- Review -->
+              </span>
             </div>
             <div class="skill-card">
               <i data-lucide="quote" class="skill-icon"></i
@@ -332,11 +336,12 @@
               ><span class="skill-name">Illustrations</span>
             </div>
           </div>
+          <!-- #endregion -->
         </div>
       </section>
+      <!-- #endregion -->
 
-      <!-- MARK: Sections projets 
-         -->
+      <!-- #region ***** Projets-->
       <section id="projects" class="section-padding section-divider">
         <h2 class="section-title" id="projects-title">
           <!-- Titre projets -->
@@ -346,8 +351,7 @@
         </p>
 
         <div class="projects-grid" id="projects-dynamic-content">
-          <!-- MARK: Projets dev 
-                  Development project -->
+          <!-- #region ***** Projets dev  -->
           <div class="domain-content domain-active" data-domain-id="dev">
             <!-- Project Nightmare -->
             <article class="project-card">
@@ -419,6 +423,7 @@
                 <span class="tag">Pixel Art</span>
               </div>
             </article>
+
             <!-- Indarë -->
             <article class="project-card">
               <div class="project-header">
@@ -449,6 +454,7 @@
                 <span class="tag">JavaScript</span>
               </div>
             </article>
+
             <!-- TimeTable -->
             <article class="project-card">
               <div class="project-header">
@@ -483,6 +489,7 @@
                 <span class="tag">GO</span>
               </div>
             </article>
+
             <!-- Dea Kademeia -->
             <article class="project-card">
               <div class="project-header">
@@ -514,6 +521,7 @@
                 <span class="tag">JavaScript</span>
               </div>
             </article>
+
             <!-- We Are Miraculous -->
             <article class="project-card">
               <div class="project-header">
@@ -546,9 +554,9 @@
               </div>
             </article>
           </div>
+          <!-- #endregion -->
 
-          <!-- MARK: Projets traduction 
-                Translation Projects -->
+          <!-- #region ***** Projets traduction -->
           <div class="domain-content" data-domain-id="translator">
             <!-- ROD -->
             <article class="project-card">
@@ -594,6 +602,7 @@
                 <span class="tag" data-i18n="tag_team"></span>
               </div>
             </article>
+
             <!-- Don't bother to knock -->
             <article class="project-card">
               <div class="project-header">
@@ -637,6 +646,7 @@
                 <span class="tag" data-i18n="tag_sub"></span>
               </div>
             </article>
+
             <!-- Lovenest -->
             <article class="project-card">
               <div class="project-header">
@@ -680,6 +690,7 @@
                 <span class="tag" data-i18n="tag_sub"></span>
               </div>
             </article>
+
             <!-- MasterChef -->
             <article class="project-card">
               <div class="project-header">
@@ -723,6 +734,7 @@
                 <span class="tag" data-i18n="tag_sub"></span>
               </div>
             </article>
+
             <!-- Avatar -->
             <article class="project-card">
               <div class="project-header">
@@ -759,6 +771,7 @@
                 <span class="tag" data-i18n="tag_team"></span>
               </div>
             </article>
+
             <!-- Blizzard -->
             <article class="project-card">
               <div class="project-header">
@@ -801,6 +814,7 @@
                 <span class="tag" data-i18n="tag_sub"></span>
               </div>
             </article>
+
             <!-- JRPG -->
             <article class="project-card">
               <div class="project-header">
@@ -839,6 +853,7 @@
                 <span class="tag" data-i18n="tag_crea"></span>
               </div>
             </article>
+
             <!-- Bamblup -->
             <article class="project-card">
               <div class="project-header">
@@ -875,11 +890,11 @@
               </div>
             </article>
           </div>
+          <!-- #endregion -->
 
-          <!-- MARK: Projets écriture
-                   Writing Projects -->
+          <!-- #region ***** Projets écriture -->
           <div class="domain-content" data-domain-id="writer">
-            <!-- LSD May'zur 1 -->
+            <!-- May'zur 1 -->
             <article class="project-card">
               <div class="project-header">
                 <h3 class="project-title">Les Joyaux des Titans</h3>
@@ -969,7 +984,7 @@
               </div>
             </article>
 
-            <!-- LSD May'zur 2 -->
+            <!-- May'zur 2 -->
             <article class="project-card">
               <div class="project-header">
                 <h3 class="project-title">L'Éveil des Titans <br /><br /></h3>
@@ -1069,11 +1084,12 @@
               </div>
             </article>
           </div>
+          <!-- #endregion -->
         </div>
       </section>
+      <!-- #endregion -->
 
-      <!-- MARK: Email
-          -->
+      <!-- #region ***** Email -->
       <section
         id="contact"
         class="section-padding section-divider contact-section"
@@ -1084,19 +1100,19 @@
         <p class="contact-intro">
           <!-- Intro contact -->
         </p>
+        <!-- Bouton email -->
         <a
           href="mailto:jade.colanges@live.fr"
           class="cta-button primary-cta final-cta"
         >
-          <!-- Bouton email -->
           <span data-i18n="cta_email"></span>
           <i data-lucide="mail" class="icon-md icon-mail"></i>
         </a>
       </section>
+      <!-- #endregion -->
     </main>
 
-    <!-- MARK: Footer 
-     -->
+    <!-- Footer -->
     <footer class="main-footer">
       <div class="footer-content">
         <p class="copyright">&copy; 2025 Jade Colanges. All rights reserved.</p>
